@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".scoreActivity">
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="Thanks for taking part in Quiz"/>
+
+    <TextView
+        android:id="@+id/your_score"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="Your score = 0/0"/>
+
+    <Button
+        android:id="@+id/return_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners"
+        android:text=" Home "
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050628259794",
+    "firebase_url": "https://aptitude-test-c3902.firebaseio.com",
+    "project_id": "aptitude-test-c3902",
+    "storage_bucket": "aptitude-test-c3902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050628259794:android:a27ccec671c95e48be520b",
+        "android_client_info": {
+          "package_name": "com.example.aptitude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050628259794-b8gsoop2831p2ncioh2tip2tpfnafsdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTcBLfdgwBmZ1HKez-VyHuNOL_ueg-zf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050628259794-b8gsoop2831p2ncioh2tip2tpfnafsdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

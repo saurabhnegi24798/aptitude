@@ -1,0 +1,50 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="#32CD32">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aptitude quiz "
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColor="@android:color/white"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:text="Your one stop for sucess" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_corners"
+        android:text="start quiz"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
